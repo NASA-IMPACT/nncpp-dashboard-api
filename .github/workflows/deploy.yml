@@ -35,7 +35,7 @@ jobs:
           STAGE: ${{ steps.extract_branch.outputs.branch }}
           STAC_API_URL: ''
           VECTOR_TILESERVER_URL: ''
-          TITILER_SERVER_URL: ''
+          TITILER_SERVER_URL: 'https://cq6rl8a28i.execute-api.us-west-2.amazonaws.com'
         with:
           from_file: 'stack/config.yml.example'
           to_file: 'stack/config.yml'
