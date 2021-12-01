@@ -8,7 +8,7 @@ on:
 env:
   AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
   AWS_REGION: ${{ secrets.AWS_REGION }}
-  DISABLE_CACHE: 'true'
+  DISABLE_CACHE: 'false'
 
 jobs:
   deploy:
